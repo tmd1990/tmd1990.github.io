@@ -2,15 +2,15 @@
 color: #000;  /*Sets the text hover color on navbar*/
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
  a:hover, .navbar-default .navbar-nav > .active > a:focus {
 color: white; /*BACKGROUND color for active*/
 background-color: #00cbcc;
 }
 
-  .navbar-default {
-    background-color: #00cbcc;
-    border-color: #030033;
+.navbar-default {
+  background-color: #00cbcc;
+  border-color: #030033;
 }
 
   .dropdown-menu > li > a:hover,
