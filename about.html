@@ -31,12 +31,23 @@
 			If you would like to know more about me, please use the contact form below, or please consider following me Twitter!
 		</p>
 	</div>
-	<div>
-		<form action="/action_page.php">
+	<div class="forms">
+		<h2>Contact Me</h2>
+		<form action="action_page.php">
+
 			<label for="fname">First Name</label>
 			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+			
+			<label for="lname">Last Name</label>
+   			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-			<input type="submit" value="Submit">
+   			<label for="message">Message</label>
+   			<textarea id="message" name="msg">
+   				Enter message here!
+   			</textarea>
+   			
+   			<input type="submit" value="Submit">
+   			   			
 		</form>
 	</div>
 </body>
