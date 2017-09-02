@@ -65,7 +65,9 @@ div.gallery {
 	margin: 20px;
     float: left;
     width: 300px;
+    height: 300px;
     padding: 8px 8px 8px 8px;
+    border-radius: 4px;
     box-shadow: 0 7px 14px rgba(0,0,0,0.12), 0 5px 5px rgba(0,0,0,0.24);
   	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
@@ -74,10 +76,24 @@ div.gallery:hover {
     
 }
 
+div.projCat {
+	padding: 20px 20px 20px 20px;
+	border-radius: 4px;
+    box-shadow: 0 7px 14px rgba(0,0,0,0.12), 0 5px 5px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  	height: 430px; /* change this when adding more projects */
+  	display: block;
+  	margin: auto;
+}
+
+div.projCat:hover {
+
+}
+
 div.gallery img {
-	margin: 8px 8px 8px 8px;
-    width: 90%;
-    height: auto;
+	padding: 0px 0px 0px 0px;
+	display: block;
+	margin: auto;
 }
 
 div.disc {
@@ -90,6 +106,8 @@ div.pics {
 }
 
 img {
+	max-width: 100%;
+	max-height: 100%;
     border-radius: 4px;
 	padding: 8px 8px 8px 8px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -174,6 +192,25 @@ p {
 	ul.sidenav li a {
 		text-align: center;
 		float: none;
+	}
+	div.gallery {
+		margin: none;
+		padding: none;
+		text-align: center;
+		max-width: 100%;
+		max-height: 100%;
+	}
+	div.img {
+		margin: none;
+		padding: none;
+		max-height: 100%;
+		max-width: 100%;
+	}
+	div.projCat {
+		margin: none;
+		padding: none;
+		height: 1100px;
+		width: 80%;
 	}
 }
 
